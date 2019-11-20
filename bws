@@ -4,8 +4,7 @@ import sys, os
 program = open(sys.argv[1], 'rb').read()
 
 code = ''
-byte = 0
-ix = 0
+byte = ix = 0
 for char in program:
     if char == 10:
         byte += 2 ** ix
@@ -15,6 +14,6 @@ for char in program:
     ix += 1
     if ix == 8:
         code += chr(byte)
-        byte, ix = 0, 0
+        byte = ix = 0
 
 exec(code)
