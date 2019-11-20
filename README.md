@@ -24,14 +24,14 @@ Some people have ethical objections to the use of tabs in their code - and even 
 If you're not cool enough to write better-whitespace code by hand, you can use the converter from python:
 
 ```
-python3 bws_converter.py [python_code.py] [better-whitespace-code.bws]
+./bws convert.bws [python_code.py] [better-whitespace-code.bws]
 ```
 
 ![](https://i.ibb.co/HV3CJmh/image.png)
 
 ### Example: Hello world
 
-See also [hello_world.bws](https://i.ibb.co/HV3CJmh/image.png)
+See also [hello_world.bws](/hello_world.bws)
 
 ```
 
