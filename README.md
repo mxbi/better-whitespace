@@ -13,6 +13,8 @@ Some people have ethical objections to the use of tabs in their code - and even 
 - ✔️ Interpreted
 - ✔️ Code secure against screen-watching attacks
 - ✔️ Built in syntax highlighting
+- ✔️ Enterprise-ready
+- ✔️ Doesn't install 100MB of electron
 
 ### Usage
 ```
