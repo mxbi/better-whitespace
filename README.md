@@ -27,7 +27,7 @@ If you're not cool enough to write better-whitespace code by hand, you can use t
 ./bws convert.bws [python_code.py] [better-whitespace-code.bws]
 ```
 
-![](https://i.ibb.co/HV3CJmh/image.png)
+![](https://i.ibb.co/vhSv1LJ/image.png)
 
 ### Example: Hello world
 
